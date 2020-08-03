@@ -1,0 +1,78 @@
+.global {
+  width: 100%;
+  font-size: 2.1em;
+  font-style: italic;
+  position: relative;
+  z-index: 1500;
+  text-align: center;
+  color: #D9C054;
+  padding: 5px;
+}
+
+.client, .clientComprador, .socioComerc, .testimonios {
+  width: 100%;
+  height: auto;
+  background: #0c303f;
+  padding: 15px 0;
+}
+  
+.titleCliente {
+  text-align: center;
+  font-size: 2em;
+  font-family: "charm";
+  color: #fff;
+}
+  
+.contentInterno {
+  width: 100%;
+  height: auto;
+}
+  
+.contentInterno > .reproductor {
+  margin-top: -15px;
+}
+
+.contentParrafos {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.pClComprador {
+  font-size: 1.25em;
+  text-align: justify;
+  padding: 10px;
+}
+  
+// .clientComprador > .contentInterno .reproductor {
+//   margin-top: -1px;
+// }
+  
+.linkJaque {
+  font-style: normal;
+  display: inline;
+}
+  
+.socioComerc {
+  position: relative;
+}
+
+.socioComerc .titleCliente {
+  position: relative;
+  bottom: -160px;
+}
+
+.socioComerc > .contentInterno > .contentParrafos {
+  position: relative;
+  bottom: -20px;
+}
+  
+.socioComerc > .contentInterno > .reproductor {
+  margin-top: 150px;
+}
+  
+// .uno {
+//     margin-top: 65px;
+// }
+  

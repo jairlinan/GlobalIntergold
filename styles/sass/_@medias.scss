@@ -1,0 +1,102 @@
+@media screen and (min-width: 639px) {
+  body {
+    font-size: 13px;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+  }
+
+  .header {
+    width: 100%;
+    height: 80px;
+  }
+  .header > .imgLogo {display: none;}
+  .navbar-Title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 19px;
+  }
+  .header {
+    height: 90px;
+  }
+  .contentVideo {
+    height: 220px;
+  }
+}
+  
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+  .header {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid blue;
+  }
+  .header .navbarLogo {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .header .navbar-Title span {
+    left: -180px;
+  }
+  .entrada {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+  .entrada .questions {
+    width: 40%;
+    height: auto;
+    top: -26px;
+    margin-left: 20px;
+  }
+  .entrada .reproductor {
+    width: 50%;
+    height: auto;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    top: -80px;
+    left: 20px;
+    border: 1px solid red;
+  }
+  .entrada .negocios {
+    width: 55%;
+    height: auto;
+    top: 250px;
+    left: -600px;
+  }
+  .entrada .negocios p {
+    font-size: 1.7em;
+  }
+  .negocioLinks {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    font-size: 1.3em;
+  }
+  .negocioLinks .negocio1 {
+    width: 220px;
+  }
+  .negocioLinks .negocio1:nth-child(2) {
+    margin-top: -25px;
+  }
+}
+  
+@media screen and (max-width: 716px) {
+  body {
+    font-size: 15px;
+  }
+}
+  

@@ -1,0 +1,63 @@
+.promoContent {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.promoContent p {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: red;
+  // letter-spacing: 1px;
+  text-align: center;
+}
+
+.contentPromo {
+  width: 100%;
+  height: auto;
+  margin-top: 2px;
+  background: #bf962e;
+  background: linear-gradient(45deg, #bf962e 0%, #ebd371 43%, #ebd371 59%, #bf962e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf962e', endColorstr='#bf962e',GradientType=1 );
+  // padding: 20px;
+}
+  
+.contentPromo h2 {
+  font-size: 3em;
+  text-align: center;
+  color: crimson;
+  letter-spacing: 1px;
+}
+  
+  .contentPromo p {
+    font-size: 1.3em;
+  }
+  
+  .realce {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: crimson;
+    font-style: normal;
+  }
+  
+  .contentPromo1 {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contentPromo1 p {
+    text-align: justify;
+    padding-right: 25px;
+  }
+  
+  .contentPromo2 {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contentPromo2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  

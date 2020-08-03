@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2000;
+    top: 7px;
+    left: 0;
+}  
+.imgLogo {
+    display: none;
+    width: 40%;
+    max-width: 220px;
+    height: 70px;}
+
+.styleFonts, .navbar-Title .Title, .navbar-Title .Titles, .linkJaque {
+    width: 100%;
+    height: auto;
+    display: block;
+    font-family: "charm";
+    font-style: italic;
+    color: #D9C054;
+}  
+.navbar-Title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.navbar-Title .Title, .Titles {font-size: 1.7em;}
+
+.navbar-Title .Titles {
+    // font-size: 1.7em;
+    font-weight: bold;
+    margin-left: -11px;
+    margin-top: -9px;
+}
