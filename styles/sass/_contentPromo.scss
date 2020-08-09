@@ -1,7 +1,7 @@
 .promoContent {
-  width: 100%;
+  width: 50%;
   height: auto;
-  padding: 10px;
+  margin: 0 auto;
 }
 
 .promoContent p {
@@ -14,12 +14,12 @@
 
 .contentPromo {
   width: 100%;
-  height: auto;
+  height: 400px;
   margin-top: 2px;
   background: #bf962e;
   background: linear-gradient(45deg, #bf962e 0%, #ebd371 43%, #ebd371 59%, #bf962e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf962e', endColorstr='#bf962e',GradientType=1 );
-  // padding: 20px;
+  padding: 20px;
 }
   
 .contentPromo h2 {
@@ -41,7 +41,7 @@
   }
   
   .contentPromo1 {
-    width: 100%;
+    width: 60%;
     height: 100%;
   }
   
@@ -51,7 +51,7 @@
   }
   
   .contentPromo2 {
-    width: 100%;
+    width: 40%;
     height: 100%;
   }
   

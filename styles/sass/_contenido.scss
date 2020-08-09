@@ -1,21 +1,24 @@
 .contenidoLing {
-  width: 98%;
+  width: 68%;
   height: auto;
   position: absolute;
   z-index: 2000;
-  top: 35%;
+  top: 34.8%;
+  left: 14%;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 3px;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 25px 0;
 }
   
-// .imgLing {width: 16%;height: auto;}  
-.imgLing img {display: none; width: 6.8em;height: 10em;}  
-.pLing {width: 100%;height: 100%;padding: 10px 15px; }  
+.imgLing {width: 16%;height: auto;}  
+.imgLing img {width: 6.8em;height: 10em;}  
+.pLing {width: 46%;height: auto;}  
 .pLing p {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: bold;
-  line-height: 32px;
+  line-height: 35px;
   color: #D9C054;
   text-align: justify;
 }
@@ -27,9 +30,9 @@
 }
   
 .contenido {
-  background: rgba(211, 188, 120, 0.4);
-  padding: 20px;
-  margin-top: 2px;
+    background: rgba(211, 188, 120, 0.4);
+    padding: 20px;
+    margin-top: 2px;
 }
 .contenido h2 {text-align: center;margin-bottom: 15px;}  
 .contenido p {text-align: justify;line-height: 25px;}
@@ -43,25 +46,28 @@
 
 .otroContenido {
   width: 100%;
-  height: auto;
+  height: 490px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 8px;
 }
   
 .columnSmall {
-  width: 100%;
+  width: 23.7%;
   height: auto;
+  font-size: 0.93em;
 }
-
-.columnSmall h2 {
-  font-size: 1.5em;
-  color: #D9C054;
-  text-align: center;
-  font-style: italic;
+  
+.columnSmall h3 {
+    color: #D9C054;
+    text-align: center;
+    font-style: italic;
 }
 
 .columnSmall p {
-  font-size: 1.2em;
+  padding: 15px 10px 0 10px;
   text-align: justify;
-  padding: 5px 10px;
 }

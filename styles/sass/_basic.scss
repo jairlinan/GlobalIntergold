@@ -2,14 +2,39 @@
 @font-face {font-family: charm;font-weight: bold;src: url(/fonts/Charm-Bold.ttf);}  
 @font-face {font-family: robotoCond;src: url(/fonts/RobotoCondensed-Regular.ttf);}
 @font-face {font-family: robotoCond;font-weight: bold;src: url(/fonts/RobotoCondensed-Bold.ttf);}
-*, *:before, *:after {margin: 0;padding: 0;box-sizing: border-box;}
-body {font-size: 12px;background: url(/img/fondo.png);font-family: 'robotoCond';}  
-.flexR {display: flex;flex-wrap: wrap;}  
-.flexC {display: flex;flex-flow: column wrap;}  
-.container {min-width: 320px;width: 100vw;min-height: 100vh;position: relative;}  
+*, *:before, *:after {margin: 0;padding: 0;-webkit-box-sizing: border-box;box-sizing: border-box;}
+body {font-size: 20px;background: url(/img/fondo.png);font-family: 'robotoCond';}
+  
+.flexR {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.flexC {
+  display: flex;
+  flex-flow: column wrap;
+}
+  
+.container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+  
 a {text-decoration: none;}  
 li {list-style: none;}  
 img {display: block;width: 100%;}
+  
+.column30, .questions, .negocios {
+  width: 29%;
+  height: 18em;
+  position: relative;
+  z-index: 1500;
+  bottom: -10px;
+}
   
 .contentProgressbar {
   width: 100%;
@@ -18,15 +43,20 @@ img {display: block;width: 100%;}
   position: fixed;
   top: 0px;
   z-index: 2500;
-}  
-.progressbar {width: 0%;height: 100%;background: crimson;}
+}
+  
+.progressbar {
+  width: 0%;
+  height: 100%;
+  background: crimson;
+}
   
 .footer {
   width: 100%;
   height: 3.75em;
-  font-size: .9em;
+  font-size: 0.8em;
   justify-content: center;
   align-items: center;
-  // text-align: center;
   background: #D3BC78;
+  margin-top: auto;
 }
