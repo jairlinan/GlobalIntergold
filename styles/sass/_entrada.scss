@@ -78,7 +78,7 @@
   
 .global {
   width: 100%;
-  font-size: 2em;
+  font-size: 1.8em;
   font-style: italic;
   position: relative;
   z-index: 1500;
@@ -86,4 +86,5 @@
   color: #D9C054;
   display: flex;
   justify-content: center;
+  top: 5px;
 }

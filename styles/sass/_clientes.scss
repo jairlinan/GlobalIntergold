@@ -1,6 +1,6 @@
 .client, .clientComprador, .socioComerc, .testimonios {
   width: 100%;
-  height: 700px;
+  height: 610px;
   background: #0c303f;
   padding: 20px 30px;
 }
@@ -25,46 +25,12 @@
   align-items: center;
 }
   
-.contentInterno > .reproductor {
-  width: 38%;
-  max-width: 35%;
-  height: 250px;
-}
-  
-.clientComprador > .contentInterno .reproductor {
-  margin-top: -1px;
-}
-  
-.contentParrafos {
-  width: 62%;
-  height: 100%;
-  padding: 5px;
-}
-
-.linkJaque {
-  font-style: normal;
-  display: inline;
-}
-
-.socioComerc {
-  position: relative;
-}
-
-.socioComerc .titleCliente {
-  position: relative;
-  bottom: -120px;
-}
-
-.socioComerc > .contentInterno > .contentParrafos {
-  position: relative;
-  bottom: -60px;
-}
-  
-.socioComerc > .contentInterno > .reproductor {
-  margin-top: 160px;
-}
-  
-.uno {
-  margin-top: 65px;
-}
+.contentInterno > .reproductor {width: 38%;max-width: 35%;height: 250px;}  
+.clientComprador > .contentInterno .reproductor {margin-top: -1px;}  
+.contentParrafos {width: 62%;height: 100%;padding: 5px;}
+.linkJaque {font-style: normal;display: inline;}
+.socioComerc {position: relative;}
+.socioComerc .titleCliente {position: relative;}
+.socioComerc > .contentInterno > .contentParrafos {position: relative;display: flex;flex-flow: column wrap;}  
+.uno {position: relative;top: 35px;}
   

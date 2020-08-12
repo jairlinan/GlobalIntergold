@@ -1,101 +1,189 @@
 @media screen and (max-width: 1200px) {
-  body {
-    font-size: 19px;
-  }
-  .header {
-    height: 90px;
-  }
-  .contentVideo {
-    height: 220px;
-  }
+  body {font-size: 18px;}
+  .header {height: 85px;}
+  .navbar-Title {height: 100%;align-items: center;}
+  .navbar-Title .Title, .Titles {margin-left: 120px;}
+  .navbar-Title .Titles {margin-left: .02px;}
+  .questions > .imgP {display: none;}
+  .contenidoLing {top: 33.5%;} 
 }
   
 @media screen and (max-width: 992px) {
-  body {
-    font-size: 16px;
-  }
-  .header {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    border: 1px solid blue;
-  }
-  .header .navbarLogo {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  .header .navbar-Title span {
-    left: -180px;
-  }
-  .entrada {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column wrap;
-    flex-flow: column wrap;
-  }
-  .entrada .questions {
-    width: 40%;
-    height: auto;
-    top: -26px;
-    margin-left: 20px;
-  }
-  .entrada .reproductor {
-    width: 50%;
-    height: auto;
-    -ms-flex-item-align: end;
-    align-self: flex-end;
+  body {font-size: 16px;}
+  .header {height: 75px;}
+  .navbar-Title {height: 100%;align-items: center;}
+  .navbar-Title .Title, .Titles {margin-left: 120px;}
+  .navbar-Title .Titles {margin-left: .02px;}
+  .questions > .imgP {display: none;}
+  
+}
+
+@media screen and (max-width: 716px) {
+  body {font-size: 14px;}
+  .navbar-Title .Titles {left: 15px;}
+  .contentCenter {height: 170px;top: 25px;}
+  .contentReprod {top: -15px;}
+  .questions .imgQ:nth-child(2) {display: none;}  
+  .negocios {
+    width: 100%;
+    height: 120px;
+    position: relative;
     top: -80px;
-    left: 20px;
-    border: 1px solid red;
-  }
-  .entrada .negocios {
-    width: 55%;
-    height: auto;
-    top: 250px;
-    left: -600px;
-  }
-  .entrada .negocios p {
-    font-size: 1.7em;
+    align-items: center;
+    p {
+      text-align: center;
+    }
   }
   .negocioLinks {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    font-size: 1.3em;
+    width: 90%;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content: space-around;    
   }
-  .negocioLinks .negocio1 {
-    width: 220px;
+  .negocioLinks .negocio1:nth-child(1) {margin: .1px 0;}  
+  .global {
+    top: 40px;
   }
-  .negocioLinks .negocio1:nth-child(2) {
-    margin-top: -25px;
-  }
-}
-  
-@media screen and (max-width: 716px) {
-  body {
-    font-size: 15px;
-  }
+
 }
   
 @media screen and (max-width: 639px) {
   body {
     font-size: 13px;
   }
-  .container {
+  .imgLogo {
+    display: none;
+  }
+  .navbar-Title {
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+  }
+  .contentCenter {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .questions {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+  }
+  .contentReprod {
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    .reproductor {
+      width: 90%;
+      height: auto;
+    }
+  }
+  .negocios {
+    display: none;
+  }
+  .global {
+    top: -5px;
+  }
+
+  .clientComprador {
+    width: 100%;
+    height: auto;
+    border: 2px solid yellow;
+  }
+  .contentInterno {
+    width: 100%;
+    height: auto;
+    flex-flow: column wrap;
+    .reproductor {
+      width: 100%;
+      max-width: 95%;
+      height: auto;
+    }
+  }
+  .contentInterno .contentParrafos .pClComprador {
+    display: inline-block;
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    border: 2px solid yellow;
+    // padding: 15px;
+  }
+
+  .lingContent {
+    width: 85%;
+    height: auto;
+    border: 1px solid tomato;
+    .imgLing {display: none;}
+    .pLing {
+      width: 80%;
+      height: auto;
+      text-align: justify;
+    }
+  }
+
+
+
+
+
+
+  .promoContent {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .promoContent p {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+  }
+  
+  .contentPromo {
+    width: 100%;
+    height: auto;
+    flex-flow: column wrap;
+  }
+    
+  .contentPromo h2 {
+    font-size: 3em;
+    text-align: center;
+    color: crimson;
+    letter-spacing: 1px;
+  }
+    
+  .contentPromo p {
+    font-size: 1.3em;
+    text-align: center;
+  }
+  
+  .realce {
+    font-size: 1.5em;      
+  }
+  
+  .contentPromo1 {
     width: 100%;
     height: auto;
   }
-
-  .header {
+  
+  .contentPromo1 p {text-align: justify;}
+  
+  .contentPromo2, .contentPromo2 img {
     width: 100%;
-    height: 80px;
+    height: auto;
   }
-  .header > .imgLogo {display: none;}
-  .navbar-Title {
-    text-align: center;
+  
+  .otroContenido {
+    width: 100%;
+    height: 1400px;
+    flex-flow: column wrap;
+    border: 2px solid tomato;
+  }
+  .small {
+    width: 100%;
+    height: auto;
+    .h3Title {text-align: center;}
+    .iframe {width: 90%;height: 140px;}
   }
 }
