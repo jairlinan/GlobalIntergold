@@ -86,7 +86,7 @@
     top: -5px;
   }
 
-  .clientComprador, .contentInterno, .reproductor, .contentParrafos, .pClComprador, .socioComerc {
+  .clientComprador, .contentInterno, .reproductor, .contentParrafos, .pClComprador, .socioComerc, .uno {
     width: 100%;
     height: auto;
   }
@@ -106,6 +106,19 @@
     }
   }
 
+  .socioComerc .contentInterno {
+    flex-flow: row wrap;
+    .reproductor {
+      width: 100%;
+      max-width: 95%;
+      height: 150px;
+    }
+  }
+
+  .uno {
+    top: 0;
+  }
+
   .lingContent {
     width: 85%;
     height: auto;
@@ -117,38 +130,32 @@
     }
   }
 
-
   .promoContent {
     width: 100%;
     height: auto;
     padding: 10px;
-  }
-  
+  }  
   .promoContent p {
     font-size: 2.5em;
     font-weight: bold;
     color: red;
     text-align: center;
-  }
-  
+  }  
   .contentPromo {
     width: 100%;
     height: auto;
     flex-flow: column wrap;
-  }
-    
+  }    
   .contentPromo h2 {
     font-size: 3em;
     text-align: center;
     color: crimson;
     letter-spacing: 1px;
-  }
-    
+  }    
   .contentPromo p {
     font-size: 1.3em;
     text-align: center;
-  }
-  
+  }  
   .realce {
     font-size: 1.5em;      
   }
@@ -167,14 +174,21 @@
   
   .otroContenido {
     width: 100%;
-    height: 1400px;
+    height: 1410px;
     flex-flow: column wrap;
-    border: 2px solid tomato;
+    justify-content: center;
+    align-items: stretch;
   }
   .small {
     width: 100%;
     height: auto;
-    .h3Title {text-align: center;}
+    margin-top: 10px;
+    .h3Title {text-align: center;font-size: 1.8em;}
     .iframe {width: 90%;height: 140px;}
+    p {font-size: 1.4em;}
+  }
+
+  .footer {
+    font-size: .9em;
   }
 }
