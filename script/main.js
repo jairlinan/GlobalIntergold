@@ -33,4 +33,3 @@ ScrollReveal().reveal('.promoContent', {delay: 400});
 ScrollReveal().reveal('.contentPromo', {delay: 400});
 ScrollReveal().reveal('.otroContenido', {delay: 400});
 ScrollReveal().reveal('.testimonios', {delay: 400});
-ScrollReveal().reveal('.footer', {delay: 400});
