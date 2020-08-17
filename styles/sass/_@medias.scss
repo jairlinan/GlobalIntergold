@@ -86,34 +86,29 @@
     top: -5px;
   }
 
-  .clientComprador {
+  .clientComprador, .contentInterno, .reproductor, .contentParrafos, .pClComprador, .socioComerc {
     width: 100%;
     height: auto;
-    border: 2px solid yellow;
   }
   .contentInterno {
-    width: 100%;
-    height: auto;
     flex-flow: column wrap;
     .reproductor {
-      width: 100%;
       max-width: 95%;
-      height: auto;
     }
   }
-  .contentInterno .contentParrafos .pClComprador {
-    display: inline-block;
-    width: 100%;
-    max-width: 90%;
-    height: auto;
-    border: 2px solid yellow;
-    // padding: 15px;
+  
+  .contentParrafos {
+    padding: 0;
+    .pClComprador {
+      display: inline-block;
+      padding: 0;
+      margin-top: 15px;
+    }
   }
 
   .lingContent {
     width: 85%;
     height: auto;
-    border: 1px solid tomato;
     .imgLing {display: none;}
     .pLing {
       width: 80%;
@@ -121,10 +116,6 @@
       text-align: justify;
     }
   }
-
-
-
-
 
 
   .promoContent {
